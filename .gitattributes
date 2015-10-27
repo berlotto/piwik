@@ -1,4 +1,4 @@
-tests/UI/expected-screenshots/*.png filter=lfs diff=lfs merge=lfs -text
+tests/UI/expected-screenshots/*.png filter=lfs diff=lfs merge=lfs -crlf
 
 # auto detect text files and perform LF normalization
 * text eol=lf
